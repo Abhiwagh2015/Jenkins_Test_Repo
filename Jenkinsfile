@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("Clone git repo") {
             steps{
-                git credentialsId: '1effd402-110c-4584-89aa-8b0776866cf4', url: 'https://github.com/Abhiwagh2015/node-todo-cicd.git'
+                git credentialsId: '626c3c85-8814-4343-a83f-94a892974eec', url: 'git@github.com:Abhiwagh2015/Jenkins_Test_Repo.git'
             }
         }
         stage("Docker image") {
